@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1476319601844
+Build-Jdk: 1.8.0_91
+Built-By: osboxes
+Bundle-Activator: br.ufpe.gprt.uactrlapp.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: uactrlapp
+Bundle-SymbolicName: br.ufpe.gprt.uactrlapp
+Bundle-Version: 0.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: br.ufpe.gprt.uactrlapp;uses:="org.slf4j,org.opendaylight
+ .controller.sal.packet,org.opendaylight.controller.sal.core,org.openday
+ light.controller.sal.flowprogrammer,org.apache.felix.dm,org.opendayligh
+ t.controller.sal.utils,org.opendaylight.controller.sal.action,org.opend
+ aylight.controller.sal.match";version="0.1.0"
+Import-Package: org.apache.felix.dm;version="[3.0,4)",org.opendaylight.c
+ ontroller.sal.action;version="[0.7,1)",org.opendaylight.controller.sal.
+ core;version="[0.7,1)",org.opendaylight.controller.sal.flowprogrammer;v
+ ersion="[0.7,1)",org.opendaylight.controller.sal.match;version="[0.7,1)
+ ",org.opendaylight.controller.sal.packet;version="[0.7,1)",org.opendayl
+ ight.controller.sal.utils;version="[0.7,1)",org.slf4j;version="[1.7,2)"
+Tool: Bnd-1.50.0
