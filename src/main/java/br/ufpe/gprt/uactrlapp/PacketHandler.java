@@ -6,21 +6,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.opendaylight.controller.sal.action.Action;
-import org.opendaylight.controller.sal.action.Output;
 import org.opendaylight.controller.sal.action.Flood;
-import org.opendaylight.controller.sal.action.SetDlDst;
-import org.opendaylight.controller.sal.action.SetDlSrc;
-import org.opendaylight.controller.sal.action.SetNwDst;
-import org.opendaylight.controller.sal.action.SetNwSrc;
-import org.opendaylight.controller.sal.core.ConstructionException;
 import org.opendaylight.controller.sal.core.Node;
 import org.opendaylight.controller.sal.core.NodeConnector;
-
 import org.opendaylight.controller.sal.flowprogrammer.Flow;
 import org.opendaylight.controller.sal.flowprogrammer.IFlowProgrammerService;
 import org.opendaylight.controller.sal.match.Match;
 import org.opendaylight.controller.sal.match.MatchType;
-
 import org.opendaylight.controller.sal.packet.Ethernet;
 import org.opendaylight.controller.sal.packet.IDataPacketService;
 import org.opendaylight.controller.sal.packet.IListenDataPacket;
@@ -28,10 +20,9 @@ import org.opendaylight.controller.sal.packet.IPv4;
 import org.opendaylight.controller.sal.packet.Packet;
 import org.opendaylight.controller.sal.packet.PacketResult;
 import org.opendaylight.controller.sal.packet.RawPacket;
-import org.opendaylight.controller.sal.packet.TCP;
-import org.opendaylight.controller.sal.utils.EtherTypes;
 import org.opendaylight.controller.sal.utils.Status;
 //import org.opendaylight.controller.switchmanager.ISwitchManager;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
