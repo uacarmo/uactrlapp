@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Bnd-LastModified: 1476319601844
 Build-Jdk: 1.8.0_91
@@ -20,3 +21,28 @@ Import-Package: org.apache.felix.dm;version="[3.0,4)",org.opendaylight.c
  ",org.opendaylight.controller.sal.packet;version="[0.7,1)",org.opendayl
  ight.controller.sal.utils;version="[0.7,1)",org.slf4j;version="[1.7,2)"
 Tool: Bnd-1.50.0
+=======
+Manifest-Version: 1.0
+Bnd-LastModified: 1548031176878
+Build-Jdk: 1.7.0_95
+Built-By: osboxes
+Bundle-Activator: br.ufpe.gprt.uactrlapp.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: uactrlapp
+Bundle-SymbolicName: br.ufpe.gprt.uactrlapp
+Bundle-Version: 0.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: br.ufpe.gprt.uactrlapp;uses:="org.opendaylight.controlle
+ r.sal.flowprogrammer,org.opendaylight.controller.sal.core,org.apache.fe
+ lix.dm,org.opendaylight.controller.switchmanager,org.opendaylight.contr
+ oller.sal.packet,org.slf4j,org.opendaylight.controller.sal.action,org.o
+ pendaylight.controller.sal.match";version="0.1.0"
+Import-Package: org.apache.felix.dm;version="[3.0,4)",org.opendaylight.c
+ ontroller.sal.action;version="[0.7,1)",org.opendaylight.controller.sal.
+ core;version="[0.7,1)",org.opendaylight.controller.sal.flowprogrammer;v
+ ersion="[0.7,1)",org.opendaylight.controller.sal.match;version="[0.7,1)
+ ",org.opendaylight.controller.sal.packet;version="[0.7,1)",org.opendayl
+ ight.controller.switchmanager;version="[0.7,1)",org.slf4j;version="[1.7
+ ,2)"
+Tool: Bnd-1.50.0
+>>>>>>> 5c138ec...  versão linux rodando vtn
